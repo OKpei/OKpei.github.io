@@ -1,0 +1,18 @@
+---
+title: Minimal Text
+baseurl: "/Minimal-Text"
+desc: A minimal blog for off-topic blog entries.
+about: I am a colleage student,want to be a great doctor in the future
+image:
+excerpt_separator: "<!-- more -->"
+markdown: kramdown
+gems:
+- jekyll-paginate
+exclude:
+  - .jekyll-metadata
+  - README.md
+  - CNAME
+paginate: 5
+paginate_path: "/:num/"
+highlighter: rouge
+permalink: pretty
